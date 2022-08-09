@@ -1,1 +1,108 @@
-/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+* {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 40px auto;
+    width: 1180px;
+    background: #F6F6F6;
+}
+
+.header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card .card__item{
+    width: 380px;
+    height: 482px;
+    box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+}
+
+.tags {
+    position: absolute;
+    display: flex;  
+}
+
+.tags_disabled{
+    visibility: hidden
+}
+
+.tags .tags__item {
+    width: 102px;
+    height: 24px;
+    margin: 17px 0 0 17px;
+    text-align: center;
+    line-height: 23px;
+    background: #FDCFF3;
+    border-radius: 8px; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F2F2F; 
+}
+
+.tags  .tags__item_last {
+    width: 134.4px;
+    background: #FFCF56;
+}
+
+.info{
+    margin: 24px;
+}
+
+.info .info__header{
+    margin-bottom: 16px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #2F2F2F;
+}
+
+.info .info__desc{
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F2F2F;
+}
+
+.card .card__item  .card__item__button{
+    cursor: pointer;
+    margin-left: 24px;
+    width: 332px;
+    height: 48px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #42940F;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid #42940F;
+}
+.card .card__item  .card__item__button:hover{
+    background: #42940F;
+    color: #FFFFFF;
+}
+.card .card__item  .card__item__button:active{
+    background: #1F5200;
+    color: #FFFFFF;
+    border-color: #1F5200;
+}
+
+.card .card__item  .card__item__button:disabled{
+    background: #4E4E4E;
+    border-color:  #4E4E4E;
+    color: #FFFFFF;
+}
+
+
