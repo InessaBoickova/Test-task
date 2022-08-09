@@ -24,8 +24,8 @@ body{
 }
 
 .card .card__item{
+    padding-bottom: 24px;
     width: 380px;
-    height: 482px;
     box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
     border-radius: 12px;
 }
@@ -105,4 +105,92 @@ body{
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1200px){
+    body{
+        width: 900px;
+    }
 
+    .header{
+        font-size: 36px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+  
+@media screen and (max-width: 980px){
+    body{
+        width: 600px;
+    }
+
+    .header{
+        font-size: 32px;
+    }
+
+    .card{
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    body{
+        margin: 25px auto;
+        width: 90%;
+    }
+
+    .header{
+        font-size: 21px;
+    }
+
+    .card{
+        gap: 40px;
+    }
+
+    .card .card__item{
+        width: 300px;
+    }
+
+    .card .card__item img{
+        width: 100%;
+    }
+
+    .tags .tags__item {
+        width: 72px;
+        height: 20px;
+        margin: 8px 0 0 12px;
+        font-size: 12px; 
+    }
+    
+    .tags  .tags__item_last {
+        width: 93px;
+    }
+    
+    .info{
+        margin: 12px;
+    }
+    
+    .info .info__header{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .info .info__desc{
+        height: 70px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .card .card__item  .card__item__button{
+        margin-left: 12px;
+        width: 276px;
+        font-weight: 900;
+        font-size: 16px;
+    }  
+}
+
+
+   
