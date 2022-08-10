@@ -15,15 +15,17 @@ body{
     font-weight: 900;
     font-size: 48px;
 }
-
+.wrapper{
+    margin-top: 40px;
+}
 .card{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    
 }
 
-.card .card__item{
+.card__item{
     padding-bottom: 24px;
     width: 380px;
     box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
@@ -40,7 +42,7 @@ body{
     visibility: hidden
 }
 
-.tags .tags__item {
+.tags__item {
     width: 102px;
     height: 24px;
     margin: 17px 0 0 17px;
@@ -53,7 +55,7 @@ body{
     color: #2F2F2F; 
 }
 
-.tags  .tags__item_last {
+.tags__item_last {
     width: 134.4px;
     background: #FFCF56;
 }
@@ -62,14 +64,14 @@ body{
     margin: 24px;
 }
 
-.info .info__header{
+.info__header{
     margin-bottom: 16px;
     font-weight: 900;
     font-size: 24px;
     color: #2F2F2F;
 }
 
-.info .info__desc{
+.info__desc{
     height: 96px;
     font-weight: 400;
     font-size: 16px;
@@ -77,7 +79,7 @@ body{
     color: #2F2F2F;
 }
 
-.card .card__item  .card__item__button{
+.card__item__button{
     cursor: pointer;
     margin-left: 24px;
     width: 332px;
@@ -90,17 +92,17 @@ body{
     border-radius: 8px;
     border: 2px solid #42940F;
 }
-.card .card__item  .card__item__button:hover{
+ .card__item__button:hover{
     background: #42940F;
     color: #FFFFFF;
 }
-.card .card__item  .card__item__button:active{
+.card__item__button:active{
     background: #1F5200;
     color: #FFFFFF;
     border-color: #1F5200;
 }
 
-.card .card__item  .card__item__button:disabled{
+.card__item__button:disabled{
     background: #4E4E4E;
     border-color:  #4E4E4E;
     color: #FFFFFF;
@@ -151,22 +153,22 @@ body{
         gap: 40px;
     }
 
-    .card .card__item{
+    .card__item{
         width: 300px;
     }
 
-    .card .card__item img{
+    .card__item img{
         width: 100%;
     }
 
-    .tags .tags__item {
+    .tags__item {
         width: 72px;
         height: 20px;
         margin: 8px 0 0 12px;
         font-size: 12px; 
     }
     
-    .tags  .tags__item_last {
+    .tags__item_last {
         width: 93px;
     }
     
@@ -174,18 +176,18 @@ body{
         margin: 12px;
     }
     
-    .info .info__header{
+    .info__header{
         margin-bottom: 10px;
         font-size: 18px;
     }
     
-    .info .info__desc{
+    .info__desc{
         height: 70px;
         font-size: 12px;
         line-height: 18px;
     }
     
-    .card .card__item  .card__item__button{
+    .card__item__button{
         margin-left: 12px;
         width: 276px;
         font-weight: 900;
