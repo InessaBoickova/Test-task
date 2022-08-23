@@ -103,6 +103,7 @@ body{
 }
 
 .card__item__button:disabled{
+    cursor: auto;
     background: #4E4E4E;
     border-color:  #4E4E4E;
     color: #FFFFFF;
