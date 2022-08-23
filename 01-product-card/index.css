@@ -15,14 +15,15 @@ body{
     font-weight: 900;
     font-size: 48px;
 }
+
 .wrapper{
     margin-top: 40px;
 }
+
 .card{
     position: relative;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
 .card__item{
@@ -37,8 +38,7 @@ body{
     display: flex;  
 }
 
-
-.tags_disabled{
+.tags-disabled{
     visibility: hidden
 }
 
