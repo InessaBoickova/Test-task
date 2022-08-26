@@ -12,13 +12,13 @@ class Collapse {
     
     onClick() {
         if (this.isOpen) {
-            this.close()
+            this.hideContent();
           } else{
-            this.open()
+             this.showContent();
           }
     }
 
-    open() {
+    showContent() {
         this.isOpen = true;
         this.visible.style.display= 'block';
         this.hidden.style.display= 'none';
@@ -35,7 +35,7 @@ class Collapse {
         
     }
 
-    close() {
+    hideContent() {
         this.isOpen = false;
         this.visible.style.display= 'none';
         this.hidden.style.display= 'block';
